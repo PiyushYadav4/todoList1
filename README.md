@@ -8,4 +8,4 @@
 ### 2. Please, don't send PRs for spamming.
 ### 3. Respect everyone here, everyone will also respect you.
 
-# Hope you enjoy while contributing! 
+# Hope you'll enjoy while contributing!
