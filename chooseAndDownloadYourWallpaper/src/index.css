@@ -1,8 +1,19 @@
 body {
-    background-color: yellow;
+    background-color: bisque;
 }
 
 .contentArea {
     margin-left: 20%;
     margin-right: 20%;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+}
+
+.navArea {
+    font-size: 50px;
+    font-family: cursive, fantasy, serif;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(47, 47, 192);
 }
