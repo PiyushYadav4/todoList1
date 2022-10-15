@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose and Download Your Wallpaper</title>
+    <link rel="icon" type="icon/x-icon" href="../images and icons/icon.png">
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -15,17 +16,33 @@
         This area will be,
         1. Non-sticky and,
         2. Non-scrollable.-->
-        Choose and Download Your Website
+        <b>Choose and Download Your Website &#10024;</b>
     </div>
 
     <div class="serachBarArea">
     <!-- This area will be sticky. -->
-
+        <form>
+            <label for="searchBar">Search For Your Desired Wallpaper:
+            </label>
+            <br>
+            <input class="search" type="search" name="searchBar"
+            maxlength="50" size="55" aria-label="Search Here">
+            <input class="searchButton" type="button" name="searchButton" 
+            value="Search🔍">
+            <br>
+            <label for="resultRange">Results per page:</label>
+            <br>
+            <input class="resultsPerPage" type="range" name="resultsPerPage"
+            min="10" max="100">
+            <br>
+            <input class="submitResultRange" type="submit" name="rangeSubmit"
+            value="Submit">
+        </form>
     </div>
     
     <div class="contentArea">
     <!-- From this <div> element the content will be scrollable. -->
-
+        
     </div>
 
     <footer>
