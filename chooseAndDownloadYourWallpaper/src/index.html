@@ -16,27 +16,47 @@
         This area will be,
         1. Non-sticky and,
         2. Non-scrollable.-->
+        
         <b>Choose and Download Your Website &#10024;</b>
     </div>
 
     <div class="serachBarArea">
-    <!-- This area will be sticky. -->
         <form>
-            <label for="searchBar">Search For Your Desired Wallpaper:
-            </label>
+            <div class="firstRow">
+                <div class="labelArea">
+                    <label for="Search Bar">
+                        Search Your Wallpaper...
+                    </label>
+                </div>
+                <div class="searchArea">
+                    <input class="searchBar" type="search" name="Search Bar"
+                    maxlength="30" size="35" placeholder="Search...">
+                </div>
+                <div class="searchButton">
+                    <input class="buttonForSearch" type="button" name="Search Button"
+                    value="Search &#128269;">
+                </div>
+            </div>
             <br>
-            <input class="search" type="search" name="searchBar"
-            maxlength="50" size="55" aria-label="Search Here">
-            <input class="searchButton" type="button" name="searchButton" 
-            value="Search🔍">
-            <br>
-            <label for="resultRange">Results per page:</label>
-            <br>
-            <input class="resultsPerPage" type="range" name="resultsPerPage"
-            min="10" max="100">
-            <br>
-            <input class="submitResultRange" type="submit" name="rangeSubmit"
-            value="Submit">
+            <div class="secondRow">
+                <div class="labelArea">
+                    <label for="resultNumbers">
+                        Max Search Results Per Page:
+                    </label>
+                </div>
+                <div class="dropdownResult">
+                    <select id="dropdownList" name="resultNumbers">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                        <option value="100">100</option>
+                        <option value="All">All</option>
+                    </select>
+                </div>
+            </div>
         </form>
     </div>
     

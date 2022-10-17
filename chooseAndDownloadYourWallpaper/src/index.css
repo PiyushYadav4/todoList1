@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: bisque;
 }
@@ -16,4 +20,21 @@ body {
     text-align: center;
     background-color: transparent;
     color: rgb(47, 47, 192);
+}
+
+footer {
+    background-color: rgb(238, 160, 15);
+    height: max-content;
+    width: 100%;
+}
+
+.searchBarArea {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* CSS code of the search bar  */
+label {
+    text-align: center;
 }
